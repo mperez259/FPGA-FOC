@@ -1,17 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: breX at Cal Poly Pomona
-// Student: M.Alonzo Perez
-// 
-// Create Date: 10/06/2025 11:46:55 PM
-// Module Name: Clarke_Park
-// Project Name: sensored FOC
-// Target Devices: Artix-7 100T
-// Description: Clarke & Park transform for breX autonomous vehicle.
-// 
-// Revision:
-// Revision 0.01 - File Created
-//////////////////////////////////////////////////////////////////////////////////
 
 module Clarke_Transform(
     input  signed [15:0] i_a, i_b, i_c,       // 16 bit signed phase currents (signed for neg. values)
@@ -49,4 +36,5 @@ begin
 end
 
 endmodule
+
 
