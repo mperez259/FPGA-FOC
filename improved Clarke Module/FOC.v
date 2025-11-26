@@ -29,7 +29,7 @@ module FOC (
     end
 
     //----------------------------------------------------
-    // Stage 1 - snapshot inputs + compute alpha(a)
+    // Stage 1 - compute alpha(a)
     //----------------------------------------------------
     reg signed [15:0] a_s1, b_s1;
     reg signed [15:0] alpha_s1;
@@ -109,3 +109,4 @@ module FOC (
     end
 
 endmodule
+
